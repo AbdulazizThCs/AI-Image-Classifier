@@ -35,6 +35,7 @@ Upload the following into your working directory:
 **5️- Run the Prediction Script**
 
 Use the provided script `predict_human_robot_animal.py`.
+
 In the script, update the image path with the path to your test image.
 Run the script to display the predicted class and confidence score.
 
