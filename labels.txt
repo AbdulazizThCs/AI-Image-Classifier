@@ -1,0 +1,3 @@
+0 Human
+1 Robot
+2 Animal
