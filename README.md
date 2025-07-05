@@ -1,7 +1,6 @@
 # AI Image Classifier 
 
-A lightweight AI-based image classification system built with TensorFlow and Python, capable of identifying images as **Human**, **Robot**, or **Animal**.  
-The model is trained using Teachable Machine and integrated into a Python inference pipeline.
+An AI-based image classification system that identifies images as Human, Robot, or Animal using a pre-trained TensorFlow model integrated via Python.
 
 # Features
 - Classifies images into: **Human**, **Robot**, **Animal**
@@ -10,29 +9,31 @@ The model is trained using Teachable Machine and integrated into a Python infere
 - Easily extendable with new classes
 - Readable Python code structure
 
-  # How to Use
+# How to Use
 
-1️- **Create and Train the Model**  
+**1️- Create and Train the Model**  
 Go to Teachable Machine, create a new Image Project, add your classes, and train the model using appropriate images.
 
-2️- **Export the Trained Model**  
+**2️- Export the Trained Model**  
 After training, export the model in **TensorFlow Keras** format. This will generate two essential files:
 - `keras_model.h5`  
 - `labels.txt`
 
-3️- **SetUp Your Environment**  
+**3️- SetUp Your Environment**  
 Open **Google Colab** or any preferred Python editor, and install the tensorflow librare by running:
 
 `!pip install tensorflow==2.12.1`
 
-4️- **Upload Required Files**
+**4️- Upload Required Files**
+
 Upload the following into your working directory:
 
-`keras_model.h5`
-`labels.txt`
-Test image files (`test1.jpg`, `test2.jpg`, `test3.jpg`)
+- `keras_model.h5`
+- `labels.txt`
+- Test image files (`test1.jpg`, `test2.jpg`, `test3.jpg`)
 
-5️- **Run the Prediction Script**
+**5️- Run the Prediction Script**
+
 Use the provided script `predict_human_robot_animal.py`.
 In the script, update the image path with the path to your test image.
 Run the script to display the predicted class and confidence score.
