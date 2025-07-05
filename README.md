@@ -25,7 +25,6 @@ Open **Google Colab** or any preferred Python editor, and install the tensorflow
 `!pip install tensorflow==2.12.1`
 
 **4️- Upload Required Files**
-
 Upload the following into your working directory:
 
 - `keras_model.h5`
@@ -33,9 +32,7 @@ Upload the following into your working directory:
 - Test image files (`test1.jpg`, `test2.jpg`, `test3.jpg`)
 
 **5️- Run the Prediction Script**
-
 Use the provided script `predict_human_robot_animal.py`.
-
 In the script, update the image path with the path to your test image.
 Run the script to display the predicted class and confidence score.
 
